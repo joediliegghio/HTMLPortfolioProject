@@ -1,0 +1,73 @@
+body {
+    background-color: #1b181c;
+    
+}
+
+h1, h2, h3, li {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2 {
+    color: #ebebeb;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p, li {
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Source Serif Pro', serif;
+}
+
+div {
+    margin: 0 auto;
+    width: 1366px;
+    height: auto;
+    box-sizing:border-box;
+}
+
+.header {
+    background: url("assets/header-bg.png") center center no-repeat;
+    height: 418px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tagline, .contact {
+    background-color: #ebebeb;
+    padding: 2% 8%;
+    color: #272128;
+}
+
+.skills {
+    background-color: #531047;
+    padding: 2% 8%;
+    color: #ebebeb;
+
+}
+
+.contact a {
+    color: #531047;
+}
+
+.contact a:hover {
+    color: #392284;
+}
+
+.contact a:visited {
+    color: #531047;
+}
